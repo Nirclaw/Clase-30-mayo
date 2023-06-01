@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="api.php" method="post">
+        <input type="text" name="nombre" placeholder="ingrese su nombre"><br>
+        <input type="text" name="apellido" placeholder="ingrese su apellido"><br>
+        <input type="number" name="edad" placeholder="ingrese su edad"><br>
+        <input type="radio" name="genero" value="Macho">  <label>Masculino</label>
+        <input type="radio" name="genero" value="Macha">  <label>Masculina</label><br>
+        <select name="nacionalidad" >
+            <option value="Colombianazo">Colombiano</option>
+            <option value="Costeno">costeno</option>
+            <option value="veneco">Venezonalito</option>
+        </select><br>
+        <label>Pasatiempos</label><br>
+        <input type="checkbox" name="pasatiempo[]" value="coninar"><label>Programar</label><br>
+        <input type="checkbox" name="pasatiempo[]" value="Musica"><label>No ser sordo</label><br>
+        <input type="checkbox" name="pasatiempo[]" value="Matar"><label>Desaparecer</label><br>
+        <input type="checkbox" name="pasatiempo[]" value="Secuestrar"> <label>Esconder</label><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
